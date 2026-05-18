@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Urban Identity — Galleries</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Nothing+You+Could+Do&family=Orbitron:wght@400..900&family=Poller+One&display=swap" rel="stylesheet">
+
+
+  <style>
+
+     body {
+      background-color: #000000;
+      color: #ffffff;
+      font-family: "Montaga", serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar */
+    .navbar {
+      background-color: #000000;
+      border-bottom: 1px solid #333333;
+      padding: 14px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo-img {
+      width: 80px;
+    }
+
+    .site-title {
+      font-family: "Orbitron", sans-serif;
+      font-size: 38px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 1;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .site-subtitle {
+      font-family: "Orbitron", sans-serif;
+      font-size: 17px;
+      letter-spacing: 2px;
+      color: #cccccc;
+      text-align: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 40px;
+    }
+
+    .nav-links a {
+      font-family: "Poller One", sans-serif;
+      font-size: 12px;
+      font-weight: 100;
+      letter-spacing: 2px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      color: #aaaaaa;
+    }
+
+    /* Page Heading */
+    .page-heading {
+      text-align: center;
+      padding: 40px 20px 10px 20px;
+    }
+
+    .page-title {
+      font-family: "Nothing You Could Do", cursive;
+      font-size: 70px;
+      color: #ffffff;
+    }
+
+    .page-description {
+      font-size: 24px;
+      color: #dddddd;
+      max-width: 700px;
+      margin: 16px auto 40px auto;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    /* Gallery Card Section */
+    .gallery-section {
+      padding: 0 60px 60px 60px;
+    }
+
+    /* Individual Gallery Card */
+     .gallery-card {
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+    }
+
+    .gallery-card img {
+      width: 100%;
+      height: 231px;
+      object-fit: cover;
+    }
+
+    .gallery-card h3{
+      font-size: 24px;
+      color: #ffffff;
+      margin-top: 12px;
+      margin-bottom: 6px;
+      text-align: center;
+     }
+
+    .gallery-card p {
+      font-size: 14px;
+      color: #aaaaaa;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid #333333;
+      padding: 16px;
+      text-align: center;
+    }
+
+    footer p {
+      font-family: "Montaga", serif;
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: #666666;
+      margin: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="navbar top">
+    <img class="logo-img" src="images/logo.png" alt="Urban Identity Logo"/>
+    <div>
+      <div class="site-title">URBAN IDENTITY</div>
+      <div class="site-subtitle">AN NYC PHOTOGRAPHY ARCHIVE</div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="galleries.html">GALLERIES</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </div>
+
+  <!-- Page Heading -->
+  <div class="page-heading">
+    <div class="page-title">Galleries</div>
+    <p class="page-description">
+      This archive is organized into five thematic photography collections exploring identity and urban life in New York City.
+    </p>
+  </div>
+
+<!-- Gallery Card Section -->
+  <div class="gallery-section">
+
+    <!-- Row 1 / 3 photos -->
+    <div class="row g-4 mb-4">
+
+      <div class="col-4">
+        <a class="gallery-card" href="individualgallery.html">
+          <img src="images/gallery-identity.jpeg" alt="Identity & Belonging"/>
+          <h3>Identity & Belonging</h3>
+          <p>Portraits and scenes that explore personal, cultural, and social identity as shaped by life in New York City.</p>
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a class="gallery-card" href="individualgallery.html">
+          <img src="images/gallery-urban.jpeg" alt="Urban Moments"/>
+          <h3>Urban Moments</h3>
+          <p>Everyday moments and candid scenes that capture the rhythm, diversity, and lived experience of the city.</p>
+        </a>
+      </div>
+
+      <div class="col-4">
+        <a class="gallery-card" href="individualgallery.html">
+          <img src="images/gallery-quiet.jpeg" alt="The Quiet In-Between"/>
+          <h3>The Quiet In-Between</h3>
+            <p>Photographs of stillness, transition, and overlooked spaces within the city's constant movement.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Row 2/ 2 Photos -->
+    <div class="row g-4 justify-content-center">
+      <div class="col-4">
+        <a class="gallery-card" href="individualgallery.html">
+          <img src="images/gallery-body.jpeg" alt="Body Form Expression"/>
+          <h3> Body, Form, Expression</h3>
+           <p>A collection focused on light, shadow, and atmosphere as defining elements of the urban environment.</p>
+        </a>
+      </div>
+    
+      <div class="col-4">
+        <a class="gallery-card" href="individualgallery.html">
+          <img src="images/gallery-light.jpeg" alt="Light as Subject"/>
+          <h3>Light as Subject</h3>
+          <p>A collection focused on light, shadow, and atmosphere as defining elements of the urban environment.</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Footer -->
+<footer>
+  <p>Copyright @ 2026 Urban Identity</p>
+</footer>
+
+</body>
+</html>
